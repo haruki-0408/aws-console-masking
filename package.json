@@ -1,8 +1,8 @@
 {
   "name": "aws-console-masking",
-  "displayName": "Aws console masking",
+  "displayName": "AWS Console Masking",
   "version": "0.0.1",
-  "description": "A basic Plasmo extension.",
+  "description": "AWSコンソール画面の機密情報を黒塗りする拡張機能",
   "author": "asano.haruki",
   "scripts": {
     "dev": "plasmo dev",
@@ -10,6 +10,7 @@
     "package": "plasmo package"
   },
   "dependencies": {
+    "@plasmohq/storage": "^1.15.0",
     "plasmo": "0.90.3",
     "react": "18.2.0",
     "react-dom": "18.2.0"
@@ -23,9 +24,19 @@
     "prettier": "3.2.4",
     "typescript": "5.3.3"
   },
+  "plasmo": {
+    "popup": {
+      "entry": "src/popup/index.tsx"
+    }
+  },
   "manifest": {
     "host_permissions": [
-      "https://*/*"
+      "https://*.console.aws.amazon.com/*",
+      "https://console.aws.amazon.com/*"
+    ],
+    "permissions": [
+      "storage",
+      "tabs"
     ]
   }
 }
