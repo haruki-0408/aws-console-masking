@@ -52,7 +52,7 @@ const IndexPopup = () => {
   }
 
   // マスキングを適用/解除する
-  const toggleMasking = (action) => {
+  const toggleMasking = (action: string) => {
     setIsProcessing(true)
     
     chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {

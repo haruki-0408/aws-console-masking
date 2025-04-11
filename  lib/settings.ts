@@ -19,7 +19,7 @@ export const DEFAULT_SETTINGS: SettingsType = {
 // デフォルトのマスキングパターン
 export const DEFAULT_PATTERNS = {
     // ARN パターン（優先度高）
-    ARN: /arn:aws:[^\s"']+/g,
+    ARN: /\barn:aws[a-zA-Z-]*:[^\s"']+/g,
 
     // AWS アカウント ID: 12桁の数字（ハイフンなし、または4桁ごとにハイフン区切り）
     ACCOUNT_ID: /\b(\d{12}|\d{4}-\d{4}-\d{4})\b/g,

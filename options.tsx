@@ -51,7 +51,7 @@ const OptionsIndex = () => {
   }
   
   return (
-    <div style={{ padding: "20px", maxWidth: "600px", margin: "0 auto", fontFamily: "Arial, sans-serif" }}>
+    <div style={{ padding: "20px", maxWidth: "600px", margin: "0 auto"}}>
       <h1 style={{ color: "#232F3E" }}>
         AWS Console Masking
       </h1>
