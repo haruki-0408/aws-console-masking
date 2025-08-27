@@ -1,7 +1,7 @@
 {
   "name": "aws-console-masking",
   "displayName": "AWS Console Masking",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "AWSコンソール画面の機密情報を黒塗りする拡張機能",
   "author": "asano.haruki",
   "scripts": {
