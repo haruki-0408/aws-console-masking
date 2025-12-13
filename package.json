@@ -27,7 +27,8 @@
   },
   "pnpm": {
     "overrides": {
-      "svgo": "^4.0.0"
+      "svgo": "^4.0.0",
+      "glob": ">=10.5.0"
     }
   },
   "plasmo": {
