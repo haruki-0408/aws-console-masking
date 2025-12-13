@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import styles from "./style.module.scss"
+import styles from "./style.module.css"
 import { DEFAULT_SETTINGS, type SettingsType } from "~ lib/settings"
 import { loadMaskSettings, saveMaskSettings } from "~ lib/storage"
 
