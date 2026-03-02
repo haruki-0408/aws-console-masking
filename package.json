@@ -28,7 +28,14 @@
   "pnpm": {
     "overrides": {
       "svgo": "^4.0.0",
-      "glob": ">=10.5.0"
+      "glob": ">=10.5.0",
+      "msgpackr@<1.10.1": ">=1.10.1",
+      "svelte@<4.2.19": ">=4.2.19",
+      "esbuild@<=0.24.2": ">=0.25.0",
+      "content-security-policy-parser@<0.6.0": ">=0.6.0",
+      "svelte@<=5.51.4": ">=5.51.5",
+      "rollup@>=3.0.0 <3.30.0": ">=3.30.0",
+      "svelte@<=5.53.4": ">=5.53.5"
     }
   },
   "plasmo": {
@@ -45,5 +52,6 @@
       "storage",
       "tabs"
     ]
-  }
+  },
+  "packageManager": "pnpm@10.23.0+sha512.21c4e5698002ade97e4efe8b8b4a89a8de3c85a37919f957e7a0f30f38fbc5bbdd05980ffe29179b2fb6e6e691242e098d945d1601772cad0fef5fb6411e2a4b"
 }
